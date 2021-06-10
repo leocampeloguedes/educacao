@@ -8,7 +8,7 @@
 </head>
 <body>
 		<h3>Formulário de Cadastro do Evento</h3><br/>
-		<form action="SalvarCadastroServlet" method="post">
+		<form action="CadastroServlet" method="post">
 			Nome Completo: <input type="text" id="nome" name="nome"><br/>
 			Gênero: <input type="text" id="genero" name="genero"><br/>
       		CPF: <input type="text" id="cpf" name="cpf"><br/>

@@ -5,10 +5,10 @@ import java.sql.DriverManager;
 
 public class SingleConnection {
 	
-	private static String url = "jdbc:sqlserver://localhost:1433;databaseName=PUB;integratedSecurity=true";
+	private static String url = "jdbc:sqlserver://localhost:1433;databaseName=educacao;integratedSecurity=true";
 	private static String drive = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-	private static String password = "admin";
-	private static String user = "postgres";
+	private static String password = "";
+	private static String user = "";
 	private static Connection connection = null;
 	
 	

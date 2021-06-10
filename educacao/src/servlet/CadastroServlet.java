@@ -13,7 +13,7 @@ import dao.DaoCadastro;
 /**
  * Servlet implementation class CadastroServlet
  */
-@WebServlet("/SalvarCadastroServlet")
+@WebServlet("/CadastroServlet")
 public class CadastroServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     
